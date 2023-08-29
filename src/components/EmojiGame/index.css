@@ -1,0 +1,28 @@
+/* Write your code here. */
+.emoji-bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-container {
+  background-color: #9796f0;
+}
+
+.emoji-list-item-container {
+  display: flex;
+  width: 80%;
+  max-width: 760px;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style-type: none;
+}
+@media screen and (max-width: 576px) {
+  .emoji-list-item-container {
+    width: 100%;
+    padding-left: 30px;
+  }
+}

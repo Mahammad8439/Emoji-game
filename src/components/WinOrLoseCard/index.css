@@ -1,0 +1,40 @@
+/* Write your code here. */
+.win-lose-container {
+  background-color: #ffffff33;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.emoji-result-image {
+  width: 50%;
+  margin-left: 50px;
+}
+.win-lose-heading {
+  font-size: 25px;
+  color: #fff;
+}
+.best-score-heading {
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+.score-result {
+  color: #6a59ff;
+  font-size: 17px;
+  margin-top: 0;
+}
+.win-lose-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.again-btn {
+  padding: 10px;
+  background-color: #ffce27;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}

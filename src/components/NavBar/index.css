@@ -1,0 +1,28 @@
+/* Write your code here. */
+.nav-bar-container {
+  background-color: #ffffff33;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-container {
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  color: #ffff;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.score-container {
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.score {
+  margin-right: 10px;
+}
